@@ -1,0 +1,8 @@
+This application provide api's for frontend to 'Create and manage account', 'Record all balance changes'
+and 'Money transfer transaction'
+
+// Database used Postgres - Docker Image from DockerHub
+// Database schema creation using DbDiagram.io
+// Database migrations: golang-migrate
+// Generate CRUD Golang code from SQL: SQLC
+// Unit tests: testify
