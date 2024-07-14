@@ -18,6 +18,7 @@ func NewServer(store db.Store) *Server {
 	server := &Server{
 		store: store,
 	}
+	
 	router := gin.Default()
 
 	if v, ok := binding.Validator.Engine().(*validator.Validate); ok {
